@@ -1,0 +1,27 @@
+{
+    "name": "kaozente/image_rescaler",
+    "description": "Rescale images set in wysiwig fields",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karl Wolf", 
+            "email": "wolfkarl@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\kaozente\\ImageRescaler\\": ""
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
